@@ -4,7 +4,7 @@ exports.seed = function (knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('offer').insert([
-        {id: 1, name: '25% off your purchase on the first of never.'}
+        {id: 1, name: '25% off your purchase on the first of never.'},
         {id: 2, name: 'No offers for you'}
 
       ])
